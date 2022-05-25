@@ -1,0 +1,148 @@
+{
+  "project_info": {
+    "project_number": "341796582895",
+    "project_id": "my-match-love",
+    "storage_bucket": "my-match-love.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341796582895:android:0008f719619fd76763321a",
+        "android_client_info": {
+          "package_name": "com.mymatchlove.matrimony"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341796582895-12do4spaq1s8loapupqndh5cadrokjsn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mymatchlove.matrimony",
+            "certificate_hash": "1aadb7e0c1525fbe1f6c1c4b852b57d8b0a25ad7"
+          }
+        },
+        {
+          "client_id": "341796582895-flna3ngdnd60bsi2fqudla64ag5qv3rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mymatchlove.matrimony",
+            "certificate_hash": "0acadde098e9f0ee00216c5fb6b4d8b3e4d17e2c"
+          }
+        },
+        {
+          "client_id": "341796582895-ob6f65046hotudd2q9ea77h85844uge0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mymatchlove.matrimony",
+            "certificate_hash": "3c85c86ab20e5df40ead5c6a0a60345169bb857d"
+          }
+        },
+        {
+          "client_id": "341796582895-8sph5dgcn1548enfecpq9sknpqtm621r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk2Wt7yLWfPlbnzO4gxU3_O7wjUd8CIds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341796582895-8sph5dgcn1548enfecpq9sknpqtm621r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:341796582895:android:5e141a38ed8e38c563321a",
+        "android_client_info": {
+          "package_name": "mymatch.love"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "341796582895-98m9fdtdmj9of7k7mumltk0d2uoeb9ei.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "3c85c86ab20e5df40ead5c6a0a60345169bb857d"
+          }
+        },
+        {
+          "client_id": "341796582895-bcm2c5red40ce65lq39sbnu22c9bl109.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "ebb997deca2c28e31e35fa280ac81c035de4afec"
+          }
+        },
+        {
+          "client_id": "341796582895-eq1bqap1toh6q00d9jpkcbpm4qu7q5t9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "1aadb7e0c1525fbe1f6c1c4b852b57d8b0a25ad7"
+          }
+        },
+        {
+          "client_id": "341796582895-h21jbfgo9em2n7ioleqgf5pgi4jle24n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "4bf3e2065853675476be80fb04692f1ec54b75c4"
+          }
+        },
+        {
+          "client_id": "341796582895-h94ajdd5k46uft1hjd0rqpm4bn6ngjl9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "122e422462e56b5ed045fdab4081333ee0c60639"
+          }
+        },
+        {
+          "client_id": "341796582895-lvq5tti49pl47g0rp331tb1vm374nvn9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "5ec1a71cb7c7cc3d8a36be638015ce90ab95adec"
+          }
+        },
+        {
+          "client_id": "341796582895-tr6g61svennckiq66v4j9c4qvi4iqeiu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mymatch.love",
+            "certificate_hash": "0acadde098e9f0ee00216c5fb6b4d8b3e4d17e2c"
+          }
+        },
+        {
+          "client_id": "341796582895-8sph5dgcn1548enfecpq9sknpqtm621r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk2Wt7yLWfPlbnzO4gxU3_O7wjUd8CIds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "341796582895-8sph5dgcn1548enfecpq9sknpqtm621r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

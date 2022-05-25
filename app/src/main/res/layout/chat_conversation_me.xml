@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_profile"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/placeholder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tv_msg" />
+
+    <TextView
+        android:id="@+id/tv_msg"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_sent_message"
+        android:gravity="right"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="10dp"
+        android:fontFamily="@font/roboto_regular"
+        android:text="fgfdfdd\nfgfdgfd\fdgfd"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/img_profile"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="10dp"
+        android:gravity="right"
+        android:text="24, march, 2021"
+        android:textSize="12sp"
+        android:fontFamily="@font/roboto_regular"
+        app:layout_constraintEnd_toEndOf="@+id/tv_msg"
+        app:layout_constraintStart_toStartOf="@+id/tv_msg"
+        app:layout_constraintTop_toBottomOf="@+id/tv_msg" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

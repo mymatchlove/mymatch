@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/white"
+tools:context="mymatch.love.fragments.ContactSettingFragment">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="15dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            style="@style/CardPaddingStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:cardCornerRadius="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_birth_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:background="@color/blue_color1"
+                        android:text="Date of Birth Privacy Setting"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your birthdate so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgBirthDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_birthtime_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Time of Birth Privacy Setting"
+                        android:background="@color/blue_color1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your birthtime so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgBirthTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_salary_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Salary Privacy Setting"
+                        android:background="@color/blue_color1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your salary so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgSalary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_horoscope_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Horoscope Privacy Setting"
+                        android:background="@color/blue_color1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your horoscope so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgHoroscope"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_biodata_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Biodata Privacy Setting"
+                        android:background="@color/blue_color1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your biodata so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgBioData"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_number_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Number Privacy Setting"
+                        android:background="@color/blue_color1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your number so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bottom_line_gray"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lbl_email_visi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Email Privacy Setting"
+                        android:background="@color/blue_color1"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        app:drawableTint="@color/colorAccent"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:text="Limit your visibility to others by selecting from three options below.You can protect your email so that only those to whom you accepted requests can view them." />
+
+                    <RadioGroup
+                        android:id="@+id/rgEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp">
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_hide_for_all"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_only_to_interest_sent_amp_interest_accepted"/>
+
+                        <RadioButton
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="15dp"
+                            android:text="@string/lbl_open_to_all"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.core.widget.NestedScrollView>
+
+<!--    <Button-->
+<!--        android:id="@+id/btn_id"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="15dp"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        style="@style/Widget.MyApp.ThemeButton"-->
+<!--        android:text="Save"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/White"/>-->
+
+</RelativeLayout>
+
+
+<include
+    layout="@layout/layout_loader"
+    android:visibility="gone"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

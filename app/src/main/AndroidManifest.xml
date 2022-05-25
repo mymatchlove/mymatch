@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mymatch.love">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- App hardware permission -->
+    <queries>
+        <intent>
+            <action android:name="android.media.action.IMAGE_CAPTURE" />
+        </intent>
+    </queries>
+
+    <uses-permission
+        android:name="android.permission.QUERY_ALL_PACKAGES"
+        tools:ignore="QueryAllPackagesPermission" />
+
+
+    <application
+        android:name=".application.MyApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup">
+
+        <activity
+            android:name=".activities.ViewPdfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.PushNotificationSettingsActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".activities.ReportBugActivity"
+            android:exported="false"
+            android:screenOrientation="locked" />
+        <activity
+            android:name=".activities.UploadBioDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BlockListActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activities.ViewedContactActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.RecentlyLoginActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.RecentlyJoinActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.NotificationListActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddReviewActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ReviewListActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SendInquiryActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.VendorDetailsActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.VendorListActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.FirstVendorCategoryListActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.MatchFromAdminActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ChatConversationActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ChatActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AddSuccessStoryActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SuccessStoryActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.WelcomeActivity"
+            android:exported="true"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.IntroActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.mkr.matrimony.active_act" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:parentActivityName=".activities.IntroActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.IntroActivity" />
+        </activity>
+        <activity
+            android:name=".activities.LoginActivityNew"
+            android:parentActivityName=".activities.IntroActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.IntroActivity" />
+        </activity>
+        <activity
+            android:name=".activities.RegisterFirstActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".activities.DashboardActivity"
+            android:label="@string/title_activity_deshboard"
+            android:launchMode="singleTask"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.DashboardTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="megamatrimony.trialme.in"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.ForgotPasswordActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ViewMyProfileActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditProfileActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ManagePhotosActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ChangePasswordActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SearchActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.DeleteProfileActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ContactUsActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.AllCmsActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ReportMissuseActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LikeProfileActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ShortlistedProfileActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.MessagesActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ConversationActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName=".activities.QuickMessageActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.mkr.matrimony.message" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.QuickMessageActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ManageAccountActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SavedSearchActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.ExpressInterestActivity"
+            android:parentActivityName=".activities.DashboardActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.mkr.matrimony.interest_receive" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".activities.ViewedProfileActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.CurrentPlanActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PlanListActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SearchResultActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.OtherUserProfileActivity"
+            android:parentActivityName=".activities.DashboardActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.mkr.matrimony.other" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".activities.MakePaymentsActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activities.SuccessActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PhotoPasswordActivity"
+            android:parentActivityName=".activities.DashboardActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.mkr.matrimony.photo_password" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.DashboardActivity" />
+        </activity>
+        <activity
+            android:name=".activities.UploadVideoActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.UploadIdAndHoroscopeActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.CustomMatchActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LoginWithOtpActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.LoginWithOtpActivityWithFirebase"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.EditPreferenceActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.GallaryNewActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.PaymentWebView"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.QuickMessageActivity"
+            android:parentActivityName=".activities.DashboardActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activities.DashboardActivity" />
+        </activity>
+
+        <!-- File provider -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!-- End File provider -->
+
+        <!-- fcm --><service
+        android:name=".fcm.MyFirebaseMessagingService"
+        tools:ignore="ExportedService">
+        <intent-filter>
+            <action android:name="com.google.firebase.MESSAGING_EVENT" />
+        </intent-filter>
+    </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/icon" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="General" />
+
+        <receiver
+            android:name=".broadcastreciever.MySMSBroadcastReceiver"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.phone.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.gms.auth.api.phone.SMS_RETRIEVED" />
+            </intent-filter>
+        </receiver>
+
+
+    </application>
+
+</manifest>

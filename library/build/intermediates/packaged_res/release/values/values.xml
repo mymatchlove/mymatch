@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ColorDarkGrey">#6e6e70</color>
+    <color name="ColorPrimary">#e11665</color>
+    <color name="ColorPrimaryDark">#e11665</color>
+    <color name="black">#000000</color>
+    <color name="colorAccent">#fcb349</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorYellow">#f4c508</color>
+    <color name="divider_gray">#6BC0C0C0</color>
+    <color name="gradient_center_color">#006a4e</color>
+    <color name="gradient_end_color">#006a4e</color>
+    <color name="gradient_start_color">#006a4e</color>
+    <color name="search_background_color">#f5f5f5</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="no_results">No available results</string>
+    <string name="type_to_search">Caută</string>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+    </style>
+    <style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style>
+    <style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+
+        <!-- Set this to true if you want Full Screen without status bar -->
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        <!-- This is important! Don't forget to set window background -->
+        <item name="android:windowBackground">@color/colorWhite</item>
+
+        <!--&lt;!&ndash; Additionally if you want animations when dialog opening &ndash;&gt;-->
+        <!--<item name="android:windowEnterAnimation">@anim/slide_up</item>-->
+        <!--<item name="android:windowExitAnimation">@anim/slide_down</item>-->
+    </style>
+    <style name="MaterialSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="rd_style">@style/Material.Drawable.Ripple.Wave.Light</item>
+        <item name="spn_labelEnable">true</item>
+        <item name="spn_labelTextSize">18sp</item>
+        <item name="spn_arrowSwitchMode">true</item>
+        <item name="spn_arrowAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="spn_arrowInterpolator">@android:anim/decelerate_interpolator</item>
+    </style>
+    <style name="Widget.MyApp.ThemeButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:padding">13dp</item>
+    </style>
+    <style name="myDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/myDialogTitle</item>
+    </style>
+    <style name="myDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+    <declare-styleable name="MultiSpinnerSearch">
+        <attr format="string" name="hintText"/>
+    </declare-styleable>
+</resources>

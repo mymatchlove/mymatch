@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.matrimony.humandtum.activities.DashboardActivity">
+
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_search_toolbar"
+        app:showAsAction="always"
+        android:title="Search"/>
+
+    <item
+        android:id="@+id/action_notifications_all"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_menu_notification"
+        app:showAsAction="always"
+        android:title="Notifications"/>
+
+    <item
+        android:id="@+id/action_notifications_chat"
+        android:orderInCategory="200"
+        android:icon="@drawable/ic_menu_chat_unread"
+        app:showAsAction="always"
+        android:title="Notifications"/>
+
+    <item
+        android:id="@+id/action_notifications_interest"
+        android:orderInCategory="300"
+        android:icon="@drawable/ic_menu_interest_added"
+        app:showAsAction="always"
+        android:title="Notifications"/>
+
+</menu>

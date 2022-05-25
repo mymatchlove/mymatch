@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.2833333333333333" />
+        <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.111" />
+        <entry key="app/src/main/res/drawable/ic_photo_request.xml" value="0.1275" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_chat_conversation.xml" value="0.21501390176088972" />
+        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_deshboard.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_edit_profile.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_login_new.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_login_with_otp.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.23072916666666668" />
+        <entry key="app/src/main/res/layout/activity_make_payments.xml" value="0.2528205128205128" />
+        <entry key="app/src/main/res/layout/activity_manage_photos.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/layout/activity_other_user_profile.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/activity_payment_web_view.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_plan_list.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/activity_report_bug.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/layout/activity_send_inquiry.xml" value="0.21" />
+        <entry key="app/src/main/res/layout/activity_success_story.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/activity_upload_biodata.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/activity_upload_id_and_horoscope.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/layout/activity_view_my_profile.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_welcome.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/app_bar_deshboard.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/block_item.xml" value="0.308197021484375" />
+        <entry key="app/src/main/res/layout/cell_chat.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/cell_first_category_list.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/current_plan_item.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/layout/dialog_verify_otp.xml" value="0.24479166666666666" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/fragment_dashboard_new.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/fragment_discover.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/fragment_my_photo.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/fragment_near_me.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/fragment_office_contactus.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/fragment_recommendation.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_success_we_met.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step1.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step2.xml" value="0.2528205128205128" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step3.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step4.xml" value="0.2528205128205128" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step5.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step6.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/layout_edit_profile_step7.xml" value="0.2453125" />
+        <entry key="app/src/main/res/layout/layout_item.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/layout_loader.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/layout/layout_register_step6.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/layout/layout_section.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/nav_header_deshboard.xml" value="0.67" />
+        <entry key="app/src/main/res/layout/nav_list_child.xml" value="0.61625" />
+        <entry key="app/src/main/res/layout/nav_list_header.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/payment_act.xml" value="0.61625" />
+        <entry key="app/src/main/res/layout/recomdation_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/short_list_item.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/show_image_alert.xml" value="0.61625" />
+        <entry key="app/src/main/res/layout/slider_slide_1.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/layout/slider_slide_3.xml" value="0.5" />
+        <entry key="app/src/main/res/menu/menu_notifications.xml" value="0.25677083333333334" />
+        <entry key="app/src/main/res/menu/menu_other_user.xml" value="0.5939759036144578" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.138" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

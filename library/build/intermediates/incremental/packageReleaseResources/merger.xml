@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res"><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-anydpi/ic_close.xml" preprocessing="true" qualifiers="anydpi-v4"><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-xxxhdpi/ic_close.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-mdpi/ic_close.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-ldpi/ic_close.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-xxhdpi/ic_close.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-hdpi/ic_close.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-xhdpi/ic_close.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-anydpi-v21/ic_close.xml" qualifiers="anydpi-v21" type="drawable"/></file><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-anydpi/ic_search.xml" preprocessing="true" qualifiers="anydpi-v4"><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-xxxhdpi/ic_search.png" qualifiers="xxxhdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-mdpi/ic_search.png" qualifiers="mdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-ldpi/ic_search.png" qualifiers="ldpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-xxhdpi/ic_search.png" qualifiers="xxhdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-hdpi/ic_search.png" qualifiers="hdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-xhdpi/ic_search.png" qualifiers="xhdpi-v4" type="drawable"/><generated-file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/pngs/release/drawable-anydpi-v21/ic_search.xml" qualifiers="anydpi-v21" type="drawable"/></file></source><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/rs/release"/><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="main" generated-set="main$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res"><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/values-v21/styles.xml" qualifiers="v21"><style name="MaterialSpinner" parent="Material.Widget.Spinner">
+        <item name="rd_style">@style/Material.Drawable.Ripple.Wave.Light</item>
+        <item name="spn_labelEnable">true</item>
+        <item name="spn_labelTextSize">18sp</item>
+        <item name="spn_arrowSwitchMode">true</item>
+        <item name="spn_arrowAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="spn_arrowInterpolator">@android:anim/decelerate_interpolator</item>
+    </style><style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">@color/colorWhite</item>
+    </style><style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/ColorPrimary</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+
+        
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        
+        <item name="android:windowBackground">@color/colorWhite</item>
+
+        
+        
+        
+    </style><style name="myDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/myDialogTitle</item>
+    </style><style name="myDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+    </style><style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style></file><file name="round_effect" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable/round_effect.xml" qualifiers="" type="drawable"/><file name="round_background" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable/round_background.xml" qualifiers="" type="drawable"/><file name="bg_square_edittext" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable/bg_square_edittext.xml" qualifiers="" type="drawable"/><file name="press_round" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable/press_round.xml" qualifiers="" type="drawable"/><file name="dialog_full_screen" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/dialog_full_screen.xml" qualifiers="" type="layout"/><file name="item_listview_multiple" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/item_listview_multiple.xml" qualifiers="" type="layout"/><file name="textview_for_spinner" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/textview_for_spinner.xml" qualifiers="" type="layout"/><file name="item_listview_single" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/item_listview_single.xml" qualifiers="" type="layout"/><file name="activity_main" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/activity_main.xml" qualifiers="" type="layout"/><file name="alert_dialog_listview" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/alert_dialog_listview.xml" qualifiers="" type="layout"/><file name="alert_dialog_listview_search" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/layout/alert_dialog_listview_search.xml" qualifiers="" type="layout"/><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/values/colors.xml" qualifiers=""><color name="ColorPrimary">#e11665</color><color name="ColorPrimaryDark">#e11665</color><color name="colorAccent">#fcb349</color><color name="ColorDarkGrey">#6e6e70</color><color name="colorWhite">#ffffff</color><color name="search_background_color">#f5f5f5</color><color name="black">#000000</color><color name="divider_gray">#6BC0C0C0</color><color name="colorYellow">#f4c508</color><color name="gradient_start_color">#006a4e</color><color name="gradient_center_color">#006a4e</color><color name="gradient_end_color">#006a4e</color></file><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/values/dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/values/styles.xml" qualifiers=""><style name="MaterialSpinner" parent="Widget.AppCompat.Spinner">
+        <item name="rd_style">@style/Material.Drawable.Ripple.Wave.Light</item>
+        <item name="spn_labelEnable">true</item>
+        <item name="spn_labelTextSize">18sp</item>
+        <item name="spn_arrowSwitchMode">true</item>
+        <item name="spn_arrowAnimDuration">@android:integer/config_shortAnimTime</item>
+        <item name="spn_arrowInterpolator">@android:anim/decelerate_interpolator</item>
+    </style><style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar.Fullscreen">
+    </style><style name="FullScreenDialogStyle" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
+        <item name="colorPrimary">@color/ColorPrimary</item>
+
+        
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:windowIsFloating">false</item>
+
+        
+        <item name="android:windowBackground">@color/colorWhite</item>
+
+        
+        
+        
+    </style><style name="myDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowTitleStyle">@style/myDialogTitle</item>
+    </style><style name="myDialogTitle" parent="@android:style/TextAppearance.DialogWindowTitle">
+        <item name="android:gravity">center_horizontal</item>
+    </style><style name="DialogWindowTitle">
+        <item name="android:maxLines">1</item>
+        <item name="android:scrollHorizontally">true</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.DialogWindowTitle</item>
+    </style><style name="Widget.MyApp.ThemeButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="backgroundTint">@color/colorAccent</item>
+        <item name="cornerRadius">30dp</item>
+        <item name="android:padding">13dp</item>
+    </style></file><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/values/strings.xml" qualifiers=""><string name="type_to_search">Caută</string><string name="no_results">No available results</string></file><file path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/values/attrs.xml" qualifiers=""><declare-styleable name="MultiSpinnerSearch">
+        <attr format="string" name="hintText"/>
+    </declare-styleable></file><file name="ic_close" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-xhdpi/ic_close.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_search" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-xhdpi/ic_search.png" qualifiers="xhdpi-v4" type="drawable"/><file name="ic_close" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-xxhdpi/ic_close.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_search" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-xxhdpi/ic_search.png" qualifiers="xxhdpi-v4" type="drawable"/><file name="ic_close" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-hdpi/ic_close.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_search" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-hdpi/ic_search.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_close" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-mdpi/ic_close.png" qualifiers="mdpi-v4" type="drawable"/><file name="ic_search" path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/main/res/drawable-mdpi/ic_search.png" qualifiers="mdpi-v4" type="drawable"/></source><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/rs/release"/><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/build/generated/res/resValues/release"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/release/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="release" generated-set="release$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/praveenkumarreddy/Downloads/Himanshu_DailyNeeds/MyMatchLove/library/src/release/res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="MultiSpinnerSearch">
+        <attr format="string" name="hintText"/>
+    </declare-styleable></configuration></mergedItems></merger>
